@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`sqlite` `3.0.11.4-sqlite` (*sqlite/Dockerfile*)](https://github.com/holblin/teamspeak3-server/blob/e892e8c52485535cce5dbadaba2c579fcc805f21/sqlite/Dockerfile)
-- [`mysql` `3.0.11.4-mysql` (*mysql/Dockerfile*)](https://github.com/holblin/teamspeak3-server/blob/e892e8c52485535cce5dbadaba2c579fcc805f21/mysql/Dockerfile)
+- [`sqlite` `3.0.11.4-sqlite` `sqlite-latest` `latest` (*sqlite/Dockerfile*)](https://github.com/holblin/docker-teamspeak3-server/blob/master/sqlite/Dockerfile)
+- [`mysql` `3.0.11.4-mysql` `mysql-latest` (*mysql/Dockerfile*)](https://github.com/holblin/docker-teamspeak3-server/blob/master/mysql/Dockerfile)
 
 # What is Teamspeak?
 
@@ -30,7 +30,7 @@ In this case you can launch your mysql/mariadb image with the MYSQL_DATABASE env
 
 # How i can backup or restore my data
 
-See the following project with lot of tools for teamspeak 3
+See [this project](https://hub.docker.com/r/holblin/teamspeak3-tools/) with all tools for teamspeak.
 
 # Why do an other teamspeak3-server image?
 
@@ -50,7 +50,7 @@ Support for older versions is not provided actually but you can check it and mak
 
 ## Issues
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/holblin/teamspeak3-server/issues).
+If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/holblin/docker-teamspeak3-server/issues).
 
 ## Contributing
 
@@ -65,7 +65,7 @@ You are invited to contribute new features, fixes, or updates, large or small; w
 
 # Todo list
 
-- Check sqlite and mysql works (voice works, file upload works)
+- Check sqlite and mysql works (voice works, file upload works, QueryServer works)
 - Test and check backup / restaure, create new docker images / project for that (teamspeak3-server-tools ?)
 - Create a docker image / project for fixing encoding (teamspeak3-server-tools ?)
 - Create test unit for check image validity and images works
