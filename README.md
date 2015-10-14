@@ -65,9 +65,6 @@ You are invited to contribute new features, fixes, or updates, large or small; w
 
 # Todo list
 
-- Create github repository (teamspeak3-server + teamspeak3-tools)
-- Create docker hub account + associate with gihub account
-
 - Check sqlite and mysql works (voice works, file upload works)
 - Test and check backup / restaure, create new docker images / project for that (teamspeak3-server-tools ?)
 - Create a docker image / project for fixing encoding (teamspeak3-server-tools ?)
