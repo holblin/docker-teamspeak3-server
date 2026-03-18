@@ -2,7 +2,7 @@
 #
 # VERSION               3.0.11.4
 
-FROM debian:jessie
+FROM debian:trixie
 
 MAINTAINER holblin
 
